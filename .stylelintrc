@@ -1,0 +1,12 @@
+{
+  "extends": "stylelint-config-standard",
+  "processors": [
+    "@mapbox/stylelint-processor-arbitrary-tags"
+  ],
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "rules": {
+    "no-empty-source": null
+  }
+}
